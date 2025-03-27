@@ -13,7 +13,9 @@ const Banner = ({
   backgroundImage = "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=1200&q=80",
 }: BannerProps) => {
   return (
-    <div className="relative w-full h-[500px] bg-slate-900 overflow-hidden">
+    <div className="relative w-full h-[500px] bg-red-600 overflow-hidden">
+      {" "}
+      {/* Changed to red-600 for a solid red */}
       {/* Background image with overlay */}
       <div
         className="absolute inset-0 bg-cover bg-center"
@@ -21,7 +23,6 @@ const Banner = ({
       >
         <div className="absolute inset-0 bg-black/50" />
       </div>
-
       {/* Content container */}
       <div className="relative h-full flex flex-col justify-center items-center text-center px-4 md:px-8 lg:px-16 z-10">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 animate-fadeIn">
@@ -31,7 +32,9 @@ const Banner = ({
           {subtitle}
         </p>
         <div className="mt-8 flex flex-col sm:flex-row gap-4 animate-fadeIn delay-200">
-          <button className="px-6 py-3 bg-white text-slate-900 font-medium rounded-md hover:bg-gray-100 transition-colors">
+          <button className="px-6 py-3 bg-white text-red-600 font-medium rounded-md hover:bg-gray-100 transition-colors">
+            {" "}
+            {/* Text changed to red-600 */}
             View My Work
           </button>
           <button className="px-6 py-3 bg-transparent text-white border border-white font-medium rounded-md hover:bg-white/10 transition-colors">

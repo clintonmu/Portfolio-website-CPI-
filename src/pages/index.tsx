@@ -22,7 +22,7 @@ const HomePage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-red-100">
       {/* Header */}
       <Header />
 
