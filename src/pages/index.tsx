@@ -36,9 +36,13 @@ const HomePage = () => {
         {/* Banner Section */}
         <motion.section variants={itemVariants}>
           <Banner
-            title="Creative Portfolio"
-            subtitle="Showcasing my journey through design and development over the years"
-            backgroundImage="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=1200&q=80"
+            title="കമ്മ്യൂണിസ്റ്റ് പാർട്ടി ഓഫ് ഇന്ത്യ "
+            images={[
+              "banner1.jpg",
+              "banner2.jpg",
+              "banner3.jpg",
+              "banner4.jpg",
+            ]}
           />
         </motion.section>
 
